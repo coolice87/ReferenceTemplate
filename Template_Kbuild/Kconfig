@@ -1,0 +1,11 @@
+mainmenu "Kbuild template Configuration"
+
+menu "General setup"
+	config test1
+		bool "test1"
+		default y
+	config test2
+		bool "test2"
+		default n
+endmenu
+
